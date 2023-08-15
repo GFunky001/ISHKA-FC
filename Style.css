@@ -1,0 +1,69 @@
+body{
+    background-image: url(image/BG1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.Container {
+    position: relative;
+    margin-top: 15px;
+}
+
+.Main {
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+
+.Main h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: antiquewhite;
+}
+
+.Main p {
+    font-size: 20px;
+    color: #6a7199;
+    margin-bottom: 15px;
+}
+
+.Main span{
+    color: #f60;
+}
+.Main .btn {
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+
+.socialMedia{
+    position: absolute;
+    right: 85%;
+    bottom:20%;
+
+}
+
+.socialMedia a{
+    text-decoration: none;
+    color: aqua;
+    padding-right: 20px;
+    font-size: xx-large;
+    transition: 1s;
+    display: block;
+}
+.socialMedia a:hover{
+    transform: scale(2.0);
+    z-index: 2;
+}
+
+
+
